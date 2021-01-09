@@ -6,6 +6,6 @@ provider "aws" {
 # S3 Resource creation
 resource "aws_s3_bucket" "yvonne1" {
   bucket = "naylabucket"
-  acl    = "private"
+  acl    = "public-read"
 }
 
