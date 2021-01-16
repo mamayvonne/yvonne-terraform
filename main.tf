@@ -8,4 +8,3 @@ resource "aws_s3_bucket" "yvonne1" {
   bucket = "naylabucket"
   acl    = "public-read"
 }
-
